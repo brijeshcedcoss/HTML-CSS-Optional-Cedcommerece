@@ -1,0 +1,273 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;800&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Montserrat";
+}
+#logo2 {
+  display: none;
+}
+#top {
+  display: flex;
+  background-color: #f6f9db;
+  height: 20rem;
+}
+input {
+  text-indent: 10px;
+}
+.welcome {
+  margin-left: 20vh;
+}
+#logo {
+  margin-top: 5vh;
+  height: 80px;
+  width: 230px;
+}
+.welcome_text_01 {
+  font-size: 40px;
+  font-weight: bold;
+}
+.welcome_text_02 {
+  font-size: 20px;
+  font-weight: bold;
+}
+.person_img {
+  display: flex;
+  position: relative;
+  top: 80px;
+  margin-left: 0vw;
+}
+.person_img img {
+  height: 280px;
+  width: 420px;
+}
+#bottom {
+  margin-left: 25vw;
+  margin-right: 10vw;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+}
+.login p {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+#login_inputs input {
+  border: none;
+  border-radius: 10px;
+  margin-top: 2%;
+  height: 50px;
+  width: 300px;
+  background-color: #ebebe0;
+}
+#login_inputs {
+  display: flex;
+}
+
+#login_inputs div {
+  margin: 10px;
+}
+#login_button {
+  display: flex;
+}
+#login_button div {
+  margin: 10px;
+}
+#login_button button {
+  border-radius: 15px;
+  height: 50px;
+  width: 300px;
+  background-color: #5900bd;
+  color: white;
+}
+#login_button p {
+  margin-top: 10px;
+}
+#back {
+  font-size: 1rem;
+}
+@media only screen and (max-width: 992px) {
+  #top {
+    height: 20rem;
+  }
+  input {
+    text-indent: 10px;
+  }
+  .welcome {
+    margin-left: 9vh;
+  }
+  #logo {
+    margin-top: 5vh;
+    height: 70px;
+    width: 200px;
+  }
+  .welcome_text_01 {
+    font-size: 43px;
+  }
+  .welcome_text_02 {
+    font-size: 15px;
+  }
+  .person_img {
+    top: 80px;
+    margin-left: 0vw;
+  }
+  .person_img img {
+    height: 270px;
+    width: 375px;
+  }
+  #bottom {
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+  }
+  .login p {
+    font-size: 1rem;
+  }
+  #login_inputs input {
+    border: none;
+    height: 45px;
+    width: 300px;
+  }
+
+  #login_inputs div {
+    margin: 10px;
+  }
+  #login_button div {
+    margin: 10px;
+  }
+  #login_button button {
+    height: 45px;
+    width: 300px;
+  }
+  #login_button p {
+    margin-top: 10px;
+  }
+  #back {
+    font-size: 1rem;
+  }
+}
+@media only screen and (max-width: 768px) {
+  #top {
+    height: 15rem;
+  }
+  input {
+    text-indent: 10px;
+  }
+  .welcome {
+    margin-left: 12vh;
+  }
+  #logo {
+    margin-top: 4vh;
+    height: 50px;
+    width: 150px;
+  }
+  .welcome_text_01 {
+    font-size: 28px;
+  }
+  .welcome_text_02 {
+    font-size: 15px;
+  }
+  .person_img {
+    top: 50px;
+    margin-left: 0vw;
+  }
+  .person_img img {
+    height: 220px;
+    width: 320px;
+  }
+  #bottom {
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+  }
+  .login p {
+    font-size: 0.8rem;
+  }
+  #login_inputs input {
+    height: 40px;
+    width: 225px;
+  }
+  #login_inputs div {
+    margin: 10px;
+  }
+  #login_button div {
+    margin: 10px;
+  }
+  #login_button button {
+    height: 40px;
+    width: 225px;
+  }
+  #login_button p {
+    margin-top: 15px;
+    font-size: 0.8rem;
+  }
+  #back {
+    font-size: 0.8rem;
+  }
+}
+@media only screen and (max-width: 576px) {
+  #logo2 {
+    display: block;
+    margin: auto;
+  }
+  #logo2 img {
+    height: 60px;
+    width: 80px;
+  }
+  #logo2 p {
+    font-size: 1.7rem;
+    font-weight: bold;
+  }
+  #logo {
+    display: none;
+  }
+  .person_img {
+    display: none;
+  }
+  .welcome {
+    display: none;
+  }
+  #top {
+    height: 13rem;
+  }
+  #bottom {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .login p {
+    font-size: 1rem;
+  }
+  #login_inputs input {
+    height: 50px;
+    width: 295px;
+    margin-top: 2%;
+  }
+  #login_inputs {
+    display: block;
+  }
+
+  #login_inputs div {
+    margin: 10px;
+  }
+  #login_button {
+    display: block;
+  }
+  #login_button div {
+    margin: 10px;
+  }
+  #login_button button {
+    height: 50px;
+    width: 295px;
+    margin-top: 3%;
+  }
+  #login_button p {
+    margin-top: 15px;
+    font-size: 0.8rem;
+  }
+  #back {
+    font-size: 0.8rem;
+  }
+}
